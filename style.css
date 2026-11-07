@@ -107,3 +107,22 @@ footer{background:#0b1522;color:white;padding:38px 0 24px}
 .profile-content p{margin:6px 0}
 .profile-content ul{padding-left:18px;margin:8px 0 16px}
 .profile-content li{padding-left:2px;margin:4px 0}
+
+
+/* Professional credentials: compact qualification-led presentation */
+.credentials-heading{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin:26px 0 42px}
+.credentials-heading h2{font:600 clamp(36px,4.5vw,56px) Manrope,sans-serif;letter-spacing:-.055em;line-height:1.16;margin:0}
+.credentials-heading h2 em{font-family:Georgia,serif;font-weight:400;color:#7f9d43}
+.credentials-intro{font-size:14px;line-height:1.9;color:var(--muted);max-width:470px;margin:0 0 5px}
+.credential-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.credential-card{background:#edf0ed;border:1px solid #dce2dd;padding:23px 24px 20px;min-height:100%}
+.credential-card-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:15px;border-bottom:1px solid #d2d9d3}
+.credential-card-head small{font-size:9px;font-weight:700;letter-spacing:.12em;color:#657486}
+.credential-card-head span{font-size:8px;font-weight:700;letter-spacing:.1em;color:#728d3e;border:1px solid #c9d4bd;padding:6px 8px;white-space:nowrap}
+.credential-card ul{padding-left:16px;margin:17px 0 0}
+.credential-card li{font-size:12px;line-height:1.75;color:#435367;padding-left:3px;margin:0 0 9px}
+.credential-card li:last-child{margin-bottom:0}
+.credentials-note{font-size:10px;line-height:1.7;color:#8793a0;margin:22px 0 0;max-width:850px}
+@media(max-width:1000px){.credential-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.credentials-heading{grid-template-columns:1fr;gap:18px}}
+@media(max-width:620px){.credential-grid{grid-template-columns:1fr}.credentials-heading h2{font-size:38px}.credential-card{padding:21px 20px}}
