@@ -3,197 +3,339 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#101c2c">
-<meta name="description" content="Maurya & Associates, Chartered Accountants, Rudrapur, Uttarakhand. Firm information and professional areas including GST, direct tax, NGO compliance and corporate compliance.">
-<title>Maurya & Associates | Chartered Accountants | Rudrapur</title>
+<meta name="theme-color" content="#153438">
+<meta name="description" content="Maurya & Associates, Chartered Accountants, Rudrapur, Uttarakhand. Firm information, professional qualifications, practice areas and official regulatory references.">
+<title>Maurya &amp; Associates | Chartered Accountants | Rudrapur</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <nav class="nav container" aria-label="Main navigation">
-    <a class="brand" href="#home">MAURYA <span class="dot">&amp;</span> ASSOCIATES</a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
-    <div class="nav-links" id="navLinks">
-      <a href="#about">About</a>
-      <a href="#credentials">Credentials</a>
-      <a href="#services">Services</a>
-      <a href="#insights">Insights</a>
-      <a href="#technology">Technology</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-contact" href="appointment.html">Book Appointment</a>
-    </div>
-  </nav>
+<header class="masthead">
+  <a class="wordmark" href="#home" aria-label="Maurya and Associates home">MAURYA <span>&amp;</span> ASSOCIATES</a>
+  <div class="masthead-meta">
+    <span>CHARTERED ACCOUNTANTS</span>
+    <i></i>
+    <span>RUDRAPUR · UTTARAKHAND</span>
+  </div>
+  <button class="mobile-index-toggle" id="menuToggle" aria-label="Open section index" aria-expanded="false">
+    <span></span><span></span>
+  </button>
 </header>
 
+<nav class="section-rail" aria-label="Page index">
+  <p>INDEX</p>
+  <a href="#home" class="rail-link is-active" data-rail="home"><span>00</span><b>Firm</b></a>
+  <a href="#firm" class="rail-link" data-rail="firm"><span>01</span><b>Profile</b></a>
+  <a href="#credentials" class="rail-link" data-rail="credentials"><span>02</span><b>Credentials</b></a>
+  <a href="#practice" class="rail-link" data-rail="practice"><span>03</span><b>Practice</b></a>
+  <a href="#references" class="rail-link" data-rail="references"><span>04</span><b>References</b></a>
+  <a href="#contact" class="rail-link" data-rail="contact"><span>05</span><b>Contact</b></a>
+  <div class="rail-line"></div>
+</nav>
+
+<nav class="mobile-index-panel" id="navLinks" aria-label="Mobile page index">
+  <p class="mobile-index-title">PAGE INDEX <span>MAURYA &amp; ASSOCIATES</span></p>
+  <a href="#home"><span>00</span> Firm</a>
+  <a href="#firm"><span>01</span> Firm profile</a>
+  <a href="#credentials"><span>02</span> Professional qualifications</a>
+  <a href="#practice"><span>03</span> Practice areas</a>
+  <a href="#references"><span>04</span> Regulatory references</a>
+  <a href="#contact"><span>05</span> Contact details</a>
+</nav>
+
 <main>
-<section class="hero" id="home">
-  <div class="grid-bg"></div>
-  <div class="container hero-content">
-    <p class="eyebrow"><i></i> MAURYA &amp; ASSOCIATES · CHARTERED ACCOUNTANTS · RUDRAPUR</p>
-    <h1>Clarity in compliance.<br><span>Confidence in business.</span></h1>
-    <p class="hero-copy">Professional information on taxation, regulatory compliance and business processes, from a Chartered Accountancy practice based in Rudrapur, Uttarakhand.</p>
-    <div class="hero-actions">
-      <a class="button" href="#services">View areas of work <b>↘</b></a>
-      <a class="text-link" href="#about">About the firm ↓</a>
+<section class="hero" id="home" data-track>
+  <div class="hero-grid-pattern"></div>
+  <div class="hero-orbit hero-orbit-one"></div>
+  <div class="hero-orbit hero-orbit-two"></div>
+  <div class="hero-inner page-shell">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="eyebrow-mark"></span> CHARTERED ACCOUNTANTS / RUDRAPUR</p>
+      <h1>MAURYA<br><span>&amp; ASSOCIATES</span></h1>
+      <div class="hero-rule"></div>
+      <p class="hero-description">Chartered Accountancy practice<br>Rudrapur, Udham Singh Nagar<br>Uttarakhand, India</p>
+      <a class="hero-scroll" href="#firm"><span>SCROLL TO FIRM INFORMATION</span><b>↓</b></a>
     </div>
-    <div class="hero-foot">CHARTERED ACCOUNTANTS <span></span> RUDRAPUR, UTTARAKHAND</div>
+
+    <div class="hero-graphic" aria-hidden="true">
+      <svg viewBox="0 0 560 600" role="presentation">
+        <defs>
+          <linearGradient id="panelTone" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#B9D0C4" stop-opacity=".30"/>
+            <stop offset="1" stop-color="#B9D0C4" stop-opacity=".03"/>
+          </linearGradient>
+          <linearGradient id="barTone" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#C77B5D"/>
+            <stop offset="1" stop-color="#C77B5D" stop-opacity=".12"/>
+          </linearGradient>
+        </defs>
+        <circle class="graphic-ring" cx="300" cy="286" r="218"/>
+        <circle class="graphic-ring graphic-ring-inner" cx="300" cy="286" r="159"/>
+        <path class="graphic-axis" d="M300 22V550 M35 286H540"/>
+        <path class="graphic-orbit" d="M94 117L507 455"/>
+        <path class="graphic-orbit" d="M500 101L94 470"/>
+        <rect x="142" y="130" width="295" height="330" rx="2" fill="url(#panelTone)" stroke="#B9D0C4" stroke-opacity=".55"/>
+        <path class="graphic-ledger" d="M177 177H401 M177 220H401 M177 263H401 M177 306H401 M177 349H401 M177 392H401"/>
+        <path class="graphic-ledger-vertical" d="M250 155V430 M326 155V430"/>
+        <rect x="177" y="177" width="73" height="43" fill="#C77B5D" fill-opacity=".86"/>
+        <rect x="326" y="263" width="75" height="43" fill="#B9D0C4" fill-opacity=".52"/>
+        <rect x="250" y="349" width="76" height="43" fill="url(#barTone)"/>
+        <circle cx="300" cy="286" r="9" fill="#EDE9DD"/>
+        <circle cx="300" cy="286" r="3" fill="#153438"/>
+        <path class="graphic-tick" d="M300 68V93 M300 479V504 M82 286H107 M493 286H518"/>
+      </svg>
+      <div class="graphic-caption">FIRM RECORD <span>01 — 05</span></div>
+    </div>
+
+    <div class="hero-bottomline">
+      <span>SOLE PROPRIETORSHIP</span>
+      <span>FRN 021524C</span>
+      <span>UTTARAKHAND / INDIA</span>
+    </div>
   </div>
-  <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
 </section>
 
-<section class="intro section container" id="about">
-  <div class="kicker">01 / ABOUT</div>
-  <div>
-    <p class="label">About the firm</p>
-    <h2>Practical insight for<br><em>business and compliance.</em></h2>
-    <div class="intro-bottom">
-      <p>Maurya &amp; Associates is a sole-proprietorship Chartered Accountancy practice based in Rudrapur, Udham Singh Nagar, Uttarakhand. The practice is owned by CA. Abhishek Kumar Maurya and is registered with the Institute of Chartered Accountants of India under Firm Registration Number 021524C.</p>
-      <p>The firm’s work encompasses taxation, regulatory and corporate compliance, and professional assignments for businesses and organisations. This website provides general information about the practice and selected technical developments.</p>
+<section class="firm-section section-light" id="firm" data-track>
+  <div class="page-shell">
+    <div class="section-marker"><span>01</span><b>FIRM PROFILE</b><i></i></div>
+    <div class="firm-layout">
+      <div class="firm-heading">
+        <p class="section-overline">MAURYA &amp; ASSOCIATES</p>
+        <h2>Firm<br><em>information</em></h2>
+        <div class="firm-id">
+          <span>ICAI FIRM REGISTRATION NUMBER</span>
+          <strong>021524C</strong>
+        </div>
+      </div>
+      <div class="firm-description">
+        <p class="lead-paragraph">Maurya &amp; Associates is a sole-proprietorship Chartered Accountancy practice based in Rudrapur, Udham Singh Nagar, Uttarakhand.</p>
+        <p>The practice is owned by CA. Abhishek Kumar Maurya. Its professional work includes taxation, regulatory and corporate compliance for businesses and organisations, including non-profit entities.</p>
+        <p>The professional background of the proprietor includes work in GST, direct taxation, audit, NGO and society compliance, corporate matters, labour-law compliance and MSME-related financial documentation.</p>
+        <div class="firm-facts">
+          <div><span>CONSTITUTION</span><strong>Sole Proprietorship</strong></div>
+          <div><span>PROPRIETOR</span><strong>CA. Abhishek Kumar Maurya</strong></div>
+          <div><span>LOCATION</span><strong>Rudrapur, Uttarakhand</strong></div>
+          <div><span>PRACTICE RECORD</span><strong>Since 2016</strong></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="credentials section container" id="credentials">
-  <div class="kicker">02 / PROFESSIONAL QUALIFICATIONS &amp; CERTIFICATES</div>
-  <div class="credentials-heading">
-    <div>
-      <p class="label">Selected professional learning</p>
-      <h2>Qualifications &amp;<br><em>professional training.</em></h2>
+<section class="credentials-section section-sand" id="credentials" data-track>
+  <div class="page-shell">
+    <div class="section-marker"><span>02</span><b>PROFESSIONAL QUALIFICATIONS</b><i></i></div>
+    <div class="section-heading-wide">
+      <div>
+        <p class="section-overline">PROPRIETOR / CA. ABHISHEK KUMAR MAURYA</p>
+        <h2>Professional<br><em>qualifications</em></h2>
+      </div>
+      <p>Selected diplomas, certificates and professional training completed by the proprietor. The items are grouped by subject for reference.</p>
     </div>
-    <p class="credentials-intro">Selected professional courses, diplomas and certificates completed by CA. Abhishek Kumar Maurya. The list reflects formal learning across audit, taxation, finance, non-profit organisations, public procurement and technology.</p>
+
+    <div class="credential-grid">
+      <article class="credential-card credential-card-tall">
+        <div class="credential-card-top"><span>01</span><small>ICAI</small></div>
+        <h3>Audit &amp; Risk</h3>
+        <ul>
+          <li>Diploma in Information System Audit (DISA)</li>
+          <li>Certified Forensic Accountant and Fraud Auditor</li>
+          <li>Certified Concurrent Auditor of Banks</li>
+          <li>Certified Peer Reviewer</li>
+          <li>Certificate in Standards of Auditing</li>
+          <li>Certificate in Accounting Standards</li>
+          <li>Certificate in Indian Accounting Standards</li>
+        </ul>
+      </article>
+
+      <article class="credential-card">
+        <div class="credential-card-top"><span>02</span><small>ICAI</small></div>
+        <h3>Tax &amp; Business</h3>
+        <ul>
+          <li>Certificate in Good and Service Tax</li>
+          <li>Certificate in Start-Ups</li>
+          <li>MSME &amp; Start-Up Certificate</li>
+          <li>Certified Wealth Manager and Financial Planner</li>
+        </ul>
+      </article>
+
+      <article class="credential-card">
+        <div class="credential-card-top"><span>03</span><small>ICAI</small></div>
+        <h3>Non-profit &amp; Public Finance</h3>
+        <ul>
+          <li>Certificate in NPOs</li>
+          <li>Certificate in Public Finance and Government Accounting</li>
+        </ul>
+      </article>
+
+      <article class="credential-card">
+        <div class="credential-card-top"><span>04</span><small>WORLD BANK</small></div>
+        <h3>Public Procurement</h3>
+        <ul>
+          <li>Certificate in Public Procurement (CPPP)</li>
+          <li>Certificate in Contract Management (CPCM)</li>
+        </ul>
+      </article>
+
+      <article class="credential-card">
+        <div class="credential-card-top"><span>05</span><small>ICAI</small></div>
+        <h3>Technology &amp; Management</h3>
+        <ul>
+          <li>100 Hours Information Technology Training</li>
+          <li>Certificate in Advanced Excel Training</li>
+          <li>Certificate Course on General Management and Communication Skills</li>
+        </ul>
+      </article>
+    </div>
+    <p class="credential-note">The credentials shown relate to the proprietor individually. They should not be read as firm-level accreditations or as confirmation of a peer review status of the firm.</p>
   </div>
-
-  <div class="credential-grid">
-    <article class="credential-card">
-      <div class="credential-card-head"><small>01 / AUDIT &amp; RISK</small><span>ICAI</span></div>
-      <ul>
-        <li>Diploma in Information System Audit (DISA)</li>
-        <li>Certified Forensic Accountant and Fraud Auditor</li>
-        <li>Certified Concurrent Auditor of Banks</li>
-        <li>Certificate in Standards of Auditing</li>
-        <li>Certificate in Accounting Standards</li>
-        <li>Certified Peer Reviewer — ICAI</li>
-        <li>Certificate in Indian Accounting Standards</li>
-      </ul>
-    </article>
-
-    <article class="credential-card">
-      <div class="credential-card-head"><small>02 / TAX &amp; BUSINESS</small><span>ICAI</span></div>
-      <ul>
-        <li>Certificate in Good and Service Tax</li>
-        <li>Certificate in Start-Ups</li>
-        <li>MSME &amp; Start-Up Certificate — ICAI</li>
-        <li>Certified Wealth Manager and Financial Planner</li>
-      </ul>
-    </article>
-
-    <article class="credential-card">
-      <div class="credential-card-head"><small>03 / NON-PROFIT &amp; PUBLIC FINANCE</small><span>ICAI</span></div>
-      <ul>
-        <li>Certificate in NPOs</li>
-        <li>Certificate in Public Finance and Government Accounting</li>
-      </ul>
-    </article>
-
-    <article class="credential-card">
-      <div class="credential-card-head"><small>04 / PUBLIC PROCUREMENT</small><span>WORLD BANK</span></div>
-      <ul>
-        <li>Certificate in Public Procurement (CPPP)</li>
-        <li>Certificate in Contract Management (CPCM)</li>
-      </ul>
-    </article>
-
-    <article class="credential-card">
-      <div class="credential-card-head"><small>05 / TECHNOLOGY &amp; MANAGEMENT</small><span>ICAI</span></div>
-      <ul>
-        <li>100 Hours Information Technology Training</li>
-        <li>Certificate in Advanced Excel Training</li>
-        <li>Certificate Course on General Management and Communication Skills</li>
-      </ul>
-    </article>
-  </div>
-  <p class="credentials-note">Course and certificate titles are reproduced from the proprietor’s records. They are presented as professional learning credentials and do not represent separate statutory licences or endorsements of the firm by the issuing organisations.</p>
 </section>
 
-<section class="expertise section" id="services">
-  <div class="container">
-    <div class="kicker">03 / PROFESSIONAL SERVICES</div>
-    <div class="section-heading">
-      <div><p class="label">Areas of professional work</p><h2>Services<span class="accent">.</span></h2></div>
-      <p class="aside">The nature and scope of each engagement are determined separately, having regard to applicable law, professional standards, independence requirements and the facts of the assignment.</p>
-    </div>
-    <div class="cards service-cards">
-      <article><small>01</small><div class="symbol">↗</div><h3>GST &amp; Indirect Tax</h3><p>GST registration and return matters, reconciliations, tax advisory, replies to notices, and assistance in adjudication and appellate proceedings.</p></article>
-      <article><small>02</small><div class="symbol">⌁</div><h3>Income Tax</h3><p>Income-tax return and TDS matters, tax advisory, assessment proceedings, responses to notices and appellate assistance.</p></article>
-      <article><small>03</small><div class="symbol">◇</div><h3>NGO &amp; FCRA Compliance</h3><p>Compliance support for trusts, societies and Section 8 companies, including charitable-tax registrations, NGO Darpan and FCRA-related matters.</p></article>
-      <article><small>04</small><div class="symbol">⌘</div><h3>Corporate &amp; Business Compliance</h3><p>Companies Act and ROC compliance, business registrations, payroll processes and labour-law compliance support.</p></article>
+<section class="practice-section section-light" id="practice" data-track>
+  <div class="page-shell">
+    <div class="section-marker"><span>03</span><b>PRACTICE AREAS</b><i></i></div>
+    <div class="section-heading-wide practice-heading">
+      <div>
+        <p class="section-overline">PROFESSIONAL WORK</p>
+        <h2>Practice<br><em>areas</em></h2>
+      </div>
+      <p>Explore the broad areas of professional work. Select a subject to view the corresponding description and scope.</p>
     </div>
 
-    <details class="reserved-services">
-      <summary>View details of audit and attestation assignments</summary>
-      <div class="reserved-copy">
-        <p>Statutory audit, tax audit, company audit and other audit, certification or attestation assignments that are reserved by law for members of the Chartered Accountancy profession are undertaken only where the applicable statutory, eligibility, independence and professional requirements are satisfied.</p>
+    <div class="practice-list">
+      <details class="practice-item">
+        <summary><span class="practice-number">01</span><span class="practice-title">GST &amp; Indirect Tax</span><span class="practice-subtitle">Registration · compliance · advisory</span><span class="practice-toggle">+</span></summary>
+        <div class="practice-detail">
+          <p>GST registration and return-related matters, reconciliation of tax records, input tax credit issues, classification and valuation queries, refund matters, notices and replies, and assistance in adjudication or appellate proceedings.</p>
+        </div>
+      </details>
+
+      <details class="practice-item">
+        <summary><span class="practice-number">02</span><span class="practice-title">Income Tax</span><span class="practice-subtitle">Returns · TDS · assessment matters</span><span class="practice-toggle">+</span></summary>
+        <div class="practice-detail">
+          <p>Income-tax return and TDS matters, tax advisory, assessment and reassessment proceedings, responses to notices, rectification matters and assistance in appellate proceedings.</p>
+        </div>
+      </details>
+
+      <details class="practice-item">
+        <summary><span class="practice-number">03</span><span class="practice-title">NGO &amp; Non-profit Compliance</span><span class="practice-subtitle">Trusts · societies · Section 8 entities</span><span class="practice-toggle">+</span></summary>
+        <div class="practice-detail">
+          <p>Formation and compliance matters relating to trusts, societies, Section 8 companies, Farmer Producer Companies and other non-profit organisations, including charitable-tax registrations, NGO Darpan and FCRA-related compliance.</p>
+        </div>
+      </details>
+
+      <details class="practice-item">
+        <summary><span class="practice-number">04</span><span class="practice-title">Corporate &amp; Business Compliance</span><span class="practice-subtitle">Companies Act · ROC · business records</span><span class="practice-toggle">+</span></summary>
+        <div class="practice-detail">
+          <p>Company and LLP compliance, ROC filing-related matters, business registrations, accounting and financial documentation, and compliance support for business entities.</p>
+        </div>
+      </details>
+
+      <details class="practice-item">
+        <summary><span class="practice-number">05</span><span class="practice-title">Payroll &amp; Labour Law</span><span class="practice-subtitle">EPF · ESI · employment compliance</span><span class="practice-toggle">+</span></summary>
+        <div class="practice-detail">
+          <p>Payroll processes and statutory compliance matters relating to EPF, ESI, contract labour, wages, bonus and other applicable employment legislation.</p>
+        </div>
+      </details>
+    </div>
+
+    <details class="reserved-practice">
+      <summary><span>+</span> Request information on assignments reserved for Chartered Accountants</summary>
+      <div>
+        <p>Information relating to statutory audit, tax audit, company audit, GST audit, certification and attestation assignments is made available here only when specifically requested by a visitor. Acceptance of any such engagement remains subject to statutory eligibility, independence, professional standards and applicable law.</p>
       </div>
     </details>
   </div>
 </section>
 
-<section class="insights section container" id="insights">
-  <div class="kicker">04 / KNOWLEDGE</div>
-  <div class="section-heading">
-    <div><p class="label">Notes, explainers and updates</p><h2>Ideas worth <em>sharing.</em></h2></div>
-    <p class="aside">A developing library of practical articles and reference notes. Content will be added after review and verification.</p>
-  </div>
-  <div class="insight">
-    <div class="insight-icon">✳</div>
-    <div><h3>Technical knowledge, without the noise.</h3><p>Future articles will cover GST law and litigation, income-tax provisions, NGO governance and compliance systems.</p></div>
-    <small>ARTICLES COMING SOON</small>
+<section class="references-section section-ink" id="references" data-track>
+  <div class="page-shell">
+    <div class="section-marker section-marker-inverse"><span>04</span><b>OFFICIAL INFORMATION SOURCES</b><i></i></div>
+    <div class="references-heading">
+      <div>
+        <p class="section-overline">REGULATORY &amp; PROFESSIONAL PORTALS</p>
+        <h2>Official<br><em>references</em></h2>
+      </div>
+      <p>Links to selected Government, regulatory and professional-body websites. External websites are maintained by their respective authorities.</p>
+    </div>
+
+    <div class="reference-groups">
+      <div class="reference-group">
+        <div class="reference-group-title"><span>01</span><b>TAXATION</b></div>
+        <a href="https://www.gst.gov.in/" target="_blank" rel="noopener noreferrer"><span>Goods and Services Tax Portal</span><b>↗</b></a>
+        <a href="https://taxinformation.cbic.gov.in/" target="_blank" rel="noopener noreferrer"><span>CBIC Tax Information Portal</span><b>↗</b></a>
+        <a href="https://www.incometax.gov.in/iec/foportal/" target="_blank" rel="noopener noreferrer"><span>Income Tax e-Filing Portal</span><b>↗</b></a>
+      </div>
+
+      <div class="reference-group">
+        <div class="reference-group-title"><span>02</span><b>ENTITY &amp; NON-PROFIT COMPLIANCE</b></div>
+        <a href="https://www.mca.gov.in/content/mca/global/en/home.html" target="_blank" rel="noopener noreferrer"><span>Ministry of Corporate Affairs</span><b>↗</b></a>
+        <a href="https://fcraonline.gov.in/" target="_blank" rel="noopener noreferrer"><span>FCRA Online Services</span><b>↗</b></a>
+      </div>
+
+      <div class="reference-group">
+        <div class="reference-group-title"><span>03</span><b>EMPLOYMENT &amp; PROFESSIONAL</b></div>
+        <a href="https://www.epfindia.gov.in/" target="_blank" rel="noopener noreferrer"><span>Employees' Provident Fund Organisation</span><b>↗</b></a>
+        <a href="https://www.esic.gov.in/" target="_blank" rel="noopener noreferrer"><span>Employees' State Insurance Corporation</span><b>↗</b></a>
+        <a href="https://www.icai.org/" target="_blank" rel="noopener noreferrer"><span>Institute of Chartered Accountants of India</span><b>↗</b></a>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="technology section" id="technology">
-  <div class="container tech-layout">
-    <div><div class="kicker">05 / TECHNOLOGY</div><p class="label">Digital processes</p><h2>Better systems.<br><em>Less repetition.</em></h2></div>
-    <div><p class="tech-copy">The firm takes an active interest in the use of technology to improve professional workflows, documentation and compliance processes. Areas of exploration include workflow automation, artificial intelligence applications and practical digital tools for Indian MSMEs.</p><div class="tags"><span>WORKFLOW AUTOMATION</span><span>AI APPLICATIONS</span><span>MSME TOOLS</span><span>PROCESS DESIGN</span></div></div>
-  </div>
-</section>
-
-<section class="contact section container" id="contact">
-  <div class="kicker">06 / CONTACT &amp; FIRM DETAILS</div>
-  <div class="contact-layout">
-    <div><p class="label">Firm information</p><h2>Professional<br><em>particulars.</em></h2></div>
-    <div>
-      <div class="firm-particulars">
-        <p><span class="muted">FIRM NAME</span><br><strong>Maurya &amp; Associates</strong></p>
-        <p><span class="muted">CONSTITUTION</span><br>Sole Proprietorship</p>
-        <p><span class="muted">PROPRIETOR</span><br>CA. Abhishek Kumar Maurya</p>
-        <p><span class="muted">FIRM REGISTRATION NUMBER</span><br>021524C</p>
+<section class="contact-section section-sand" id="contact" data-track>
+  <div class="page-shell">
+    <div class="section-marker"><span>05</span><b>CONTACT &amp; FIRM DETAILS</b><i></i></div>
+    <div class="contact-layout">
+      <div class="contact-title">
+        <p class="section-overline">MAURYA &amp; ASSOCIATES</p>
+        <h2>Contact<br><em>details</em></h2>
+        <p>Chartered Accountants<br>Rudrapur, Uttarakhand, India</p>
       </div>
-      <div class="contact-details">
-        <p><span class="muted">EMAIL</span><br><a href="mailto:caabhishekmaurya@hotmail.com">caabhishekmaurya@hotmail.com</a></p>
-        <p><span class="muted">PHONE</span><br><a href="tel:+918006782740">+91 80067 82740</a></p>
+      <div class="contact-information">
+        <div class="contact-record">
+          <span>PROFESSIONAL ADDRESS</span>
+          <strong>C-42, Awas Vikas,<br>Rudrapur, Udham Singh Nagar,<br>Uttarakhand, India</strong>
+        </div>
+        <div class="contact-record">
+          <span>EMAIL</span>
+          <a href="mailto:caabhishekmaurya@hotmail.com">caabhishekmaurya@hotmail.com <b>↗</b></a>
+        </div>
+        <div class="contact-record">
+          <span>TELEPHONE</span>
+          <a href="tel:+918006782740">+91 80067 82740 <b>↗</b></a>
+        </div>
+        <div class="contact-record">
+          <span>PROPRIETOR</span>
+          <strong>CA. Abhishek Kumar Maurya</strong>
+        </div>
+        <div class="contact-record">
+          <span>FIRM REGISTRATION NUMBER</span>
+          <strong>021524C</strong>
+        </div>
       </div>
-      <p class="location">CHARTERED ACCOUNTANTS<br>RUDRAPUR, UDHAM SINGH NAGAR, UTTARAKHAND, INDIA</p>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
-  <div class="container footer-top">
-    <a class="brand" href="#home">MAURYA <span class="dot">&amp;</span> ASSOCIATES</a>
-    <p>Chartered Accountants · Sole Proprietorship · Rudrapur</p>
-    <a class="back" href="#home">BACK TO TOP ↑</a>
+<footer class="site-footer">
+  <div class="page-shell">
+    <div class="footer-main">
+      <a class="footer-wordmark" href="#home">MAURYA <span>&amp;</span> ASSOCIATES</a>
+      <p>Chartered Accountants<br>Rudrapur · Uttarakhand · India</p>
+      <a class="footer-top-link" href="#home">RETURN TO TOP ↑</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Maurya &amp; Associates. All rights reserved.</span>
+      <span>FRN 021524C</span>
+    </div>
+    <p class="footer-disclaimer">This website provides general information about the firm and selected professional reference links. It is not intended to solicit professional work. Information on this website is general in nature and should not be relied upon as professional advice without considering the specific facts and applicable law. Accessing this website does not create a professional relationship. Any professional engagement is subject to separate discussion, conflict checks, agreed scope and applicable professional requirements.</p>
   </div>
-  <div class="container footer-bottom">
-    <span>© <span id="year"></span> Maurya &amp; Associates, Chartered Accountants. All rights reserved.</span>
-    <span>FRN 021524C · UTTARAKHAND · INDIA</span>
-  </div>
-  <div class="container disclaimer">This website is intended to provide general firm information and professional knowledge resources. It does not constitute a solicitation of clients or professional work. Information is general in nature and should not be relied upon as professional advice without considering the specific facts and applicable law. No professional relationship is created by accessing this website.</div>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
